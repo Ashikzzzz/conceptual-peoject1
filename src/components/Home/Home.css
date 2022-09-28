@@ -1,0 +1,64 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.input-field{
+    padding: 8px 20px 8px 20px;
+    margin-top: 5px;
+}
+
+.input-field:hover{
+    background-color: cadetblue;
+    color: white;
+}
+/* for button  */
+.search-btn{
+    padding: 8px 12px;
+    margin-left: 3px;
+    background-color:rgb(50, 189, 194);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    box-shadow: 4px 4px 4px gray;
+}
+
+.search-btn:hover{
+background-color: thistle;
+color:darkcyan ;
+font-weight: 600;
+box-shadow: 4px 4px 4px gray;
+}
+
+/* cart part  */
+.cart{
+    border: 1px solid gray;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+}
+.cart:hover{
+    background-color:darkcyan ;
+}
+
+.dlt-btn{
+   padding: 5px 15px;
+   background-color: cadetblue;
+   border-radius: 3px;
+   border: none;
+   margin-top: 5px;
+}
+.dlt-btn:hover{
+   background-color: brown;
+    font-weight: 600;
+    color: white;
+}
+
+.cart-container-info{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}

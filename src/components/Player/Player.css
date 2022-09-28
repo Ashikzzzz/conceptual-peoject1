@@ -1,0 +1,27 @@
+.card{
+    width: 250px;
+    height: 490px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 4px gray;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 10px;
+   
+}
+.card-btn{
+    padding: 8px 12px;
+    margin-left: 3px;
+    background-color:rgb(50, 189, 194);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    box-shadow: 4px 4px 8px gray;
+    margin-top: 5px;
+    
+}
+.card-btn:hover{
+    background-color: thistle;
+    color:darkcyan ;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px gray;
+}
